@@ -8,18 +8,18 @@ export class Haiku {
   syllableChecker1() {
     let regex = /[aeiouAEIOU]/g;
     let found = this.line1.match(regex);
-    return found;
+    return found.length;
   }
 
   syllableChecker2() {
     let regex = /[aeiouAEIOU]/g;
     let found = this.line2.match(regex);
-    return found;
+    return found.length;
   }
 
   syllableChecker3() {
     let regex = /[aeiouAEIOU]/g;
     let found = this.line3.match(regex);
-    return found;
+    return found.length;
   }
 }

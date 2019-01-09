@@ -8,14 +8,15 @@ const haiku = new Haiku("Apple","bannana","orange")
 
 
 $(document).ready(function() {
-  let x = 1;
-  console.log("you made it here :" + haiku.line1 + haiku.line2 + haiku.line3 + x)
+
+
+  console.log("main - you made it here :" + haiku.line1 + haiku.line2 + haiku.line3)
   let found1 = haiku.syllableChecker1();
-  console.log("found: " + found1);
-  
+  console.log("main - found: " + found1);
+
   let found2 = haiku.syllableChecker2();
-  console.log("found: " + found2);
+  console.log("main - found: " + found2);
 
   let found3 = haiku.syllableChecker3();
-  console.log("found: " + found3);
+  console.log("mani - found: " + found3);
 });
