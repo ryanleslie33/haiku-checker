@@ -12,11 +12,12 @@
     },
     "rules": {
         "semi": 1,
-        "indent": ["warn", 2],
+        "indent": ["off"],
         "no-console": "warn",
         "no-debugger": "warn",
         "no-unused-vars": "warn",
         "no-undef": "warn",
-        "no-empty": "warn"
+        "no-empty": "warn",
+        "no-fallthrough": "warn"
     }
 }
