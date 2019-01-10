@@ -9,7 +9,7 @@ export class Haiku {
 
 
   syllableChecker1() {
-    let regex = /ai|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|iou|uee|qu|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|[a-z]{2}e\b|[aeiou]/g;
+    let regex = /[aeiou]dge\b|eau|[cg]eous|[cgt]ious|qu[aeiou]{1,2}|[a-z]{2,3}es\b|[a-z]{2,3}e\b|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|ia|[aeiou]/g;
     let found = this.line1.match(regex);
     console.log(found)
     if (found.length === 5) {
@@ -18,7 +18,7 @@ export class Haiku {
     }
 
   syllableChecker2() {
-    let regex = /ai|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|iou|uee|qu|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|[a-z]{2}e\b|[aeiou]/g;
+    let regex = /[aeiou]dge\b|eau|[cg]eous|[cgt]ious|qu[aeiou]{1,2}|[a-z]{2,3}es\b|[a-z]{2,3}e\b|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|ia|[aeiou]/g;
     let found = this.line2.match(regex);
       console.log(found)
     if (found.length === 7) {
@@ -27,7 +27,7 @@ export class Haiku {
     }
 
   syllableChecker3() {
-    let regex = /ai|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|iou|uee|qu|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|[a-z]{2}e\b|[aeiou]/g;
+    let regex = /[aeiou]dge\b|eau|[cg]eous|[cgt]ious|qu[aeiou]{1,2}|[a-z]{2,3}es\b|[a-z]{2,3}e\b|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|ia|[aeiou]/g;
     let found = this.line3.match(regex);
       console.log(found)
     if (found.length === 5) {

@@ -5,7 +5,7 @@ import { Haiku } from './haiku.js';
 
 
 
-const regex = /ai|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|iou|uee|qu|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|[a-z]{2}e\b|[aeiou]/g;
+
 
 $(document).ready(function() {
 $("#form").submit(function(event){
