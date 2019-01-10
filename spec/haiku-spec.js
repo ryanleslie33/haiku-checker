@@ -1,4 +1,4 @@
-import {Haiku} from '/Users/Guest/desktop/haiku-checker/src/haiku.js';
+import {Haiku, Week} from '/Users/Guest/desktop/haiku-checker/src/haiku.js';
 
 describe("Haiku", function(){
   var haiku1;
@@ -66,5 +66,22 @@ it ( "determines whether line3 equals 5 syllables for haiku 3", function(){
   console.log(haiku3.syllableChecker3())
   expect(haiku3.syllableChecker3()).toBe(true)
 })
+
+describe("Week", function(){
+  var week;
+  beforeEach(function() {
+
+    week = new Week(1980,"JUL",12)
+});
+    it ( "converts number day of the week into name of week day", function(){
+
+      expect(week.checkDate()).toBe("Saturday")
+    })
+
+
+
+
+
+});
 
 });

@@ -17,7 +17,6 @@
         "no-debugger": "warn",
         "no-unused-vars": "warn",
         "no-undef": "warn",
-        "no-empty": "warn",
-        "no-fallthrough": "warn"
+        "no-empty": "warn"
     }
 }
