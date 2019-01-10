@@ -3,20 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import { Haiku } from './haiku.js';
 
-const haiku = new Haiku("Apple","bannana","orange")
 
 
+const regex = /ai|ay|ee|ea|ie|ei|oo|ou|ow|oe|oo|ue|ey|ay|oy|oi|au|iou|uee|qu|aw|y\b|[^aeiou]le\b|[^aeiou]les\b|[a-z]{2}e\b|[aeiou]/g;
 
 $(document).ready(function() {
+$("#form").submit(function(event){
+event.preventDefault()
+  let mainline1 = $("#line1").val();
+  console.log(mainline1)
+  let mainline2 = $("#line2").val();
+  let mainline3 = $("#line3").val();
+  let haiku = new Haiku(mainline1,mainline2,mainline3);
+  console.log(haiku.isAHaiku());
+  $("#output").text("its a haiku poem" + haiku.line1 + haiku.line2 + haiku.line3);
 
+})
 
-  console.log("main - you made it here :" + haiku.line1 + haiku.line2 + haiku.line3)
-  let found1 = haiku.syllableChecker1();
-  console.log("main - found: " + found1);
-
-  let found2 = haiku.syllableChecker2();
-  console.log("main - found: " + found2);
-
-  let found3 = haiku.syllableChecker3();
-  console.log("mani - found: " + found3);
 });
