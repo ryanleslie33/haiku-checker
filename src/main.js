@@ -2,11 +2,30 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import { Haiku, Week } from './haiku.js';
+import 'faker';
+var faker = require('faker');
+var random_stuff;
+var i;
 
+var my_random_array = [
+  "USA",
+  "Canada",
+  "Mexico",
+  "Russia",
+  "China",
+  "UK"
+]
 
+console.log(my_random_array[Math.floor(Math.random()*my_random_array.length)])
+console.log(my_random_array[Math.floor(Math.random()*my_random_array.length)])
+console.log(my_random_array[Math.floor(Math.random()*my_random_array.length)])
+
+for (i = 0; i < 20; i++) {
+random_stuff = faker.hacker.noun();
+console.log(random_stuff);
+}
 
 const userTime = new Date()
-
 $(document).ready(function() {
 $("#form").submit(function(event){
 event.preventDefault()
