@@ -1,0 +1,9 @@
+.header{
+  border: 1px solid black;
+}
+.poem-input{
+  background-color: #e9ecef8c;
+}
+body{
+  background-image: url("/Users/ryan leslie/Desktop/haiku-checker/src/images/poem.jpg");
+}

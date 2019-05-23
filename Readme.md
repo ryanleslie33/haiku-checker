@@ -1,12 +1,12 @@
-# _{HairSalon}_
+# _Haiku Checker_
 
-#### _{Allows a user to add and delete list of hair stylist and their personal clients}, {december 7, 2018}_
+#### _Allows a user to input a poem and application checks to see if inputted information meets the criteria for a haiku poem_
 
 #### By _**{Ryan Leslie}**_
 
 ## Description
 
-_{This application starts off at a home page where it gives you an option of adding a stylist to a list. and another to view a list of all the hair stylist that you have entered. Once you input a stylist and hit add, it will be added to that list. There is a clickable link on each of the stylist that you have added, when click on then it then gives you an option of adding clients to these specific hairstylist, each time you add a client it will be added to a list under that stylist and display each hair stylist and there list of clients. }_
+_This is a Javascript application_
 
 ## Setup/Installation Requirements
 
@@ -28,7 +28,7 @@ _{This application starts off at a home page where it gives you an option of add
 
 ## Known Bugs
 
-_{There is only one bug at this time which is the application will not start over when you refresh the page, you much re-enter the url pathway into the browser every time you want to clear your previous information and start over.}_
+_There is no known bugs at this time_
 
 ## Support and contact details
 
@@ -38,7 +38,7 @@ _{If you have any questions about this application or are having trouble running
 
 ## Technologies Used
 
-_This application is written all in C#, using its sub-language Razor that helps it read code and use css and html through C#. This application also uses mysql and php-administration for databases_
+_This application is written in Javascript and  jQuery with Karma testing_
 
 ### License
 

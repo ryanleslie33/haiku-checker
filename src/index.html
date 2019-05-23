@@ -5,7 +5,13 @@
     <title>Index Page</title>
   </head>
   <body>
-    <h1>This is the Index Page</h1>
+    <div id="background" class="container">
+      <div class="header">
+        <h1>Welcome to Hiaku Checker</h1>
+        <hr>
+      </div>
+     <div class="poem-input">
+    <h3>enter a poem to see it matches the criteria</h3>
     <form id="form" action="index.html" method="post">
       <p>Enter your first line for your poem</p>
       <input id="line1" type="text" name="line1" value="">
@@ -17,12 +23,12 @@
           <button type="submit" name="button">Enter</button>
           <br>
           <p>Your answer is  :</p>
-      
          <div id="output">
-
          </div>
     </form>
-
+    </div>
+</div>
+<div class="container">
     <form id="form2" action="index.html" method="post">
       <h2> Enter a year month and day</h2>
       <input id="year" type="text" name="year" value="" pattern="[0-9]{4}" title= " enter the amount of numbers you idiot">
@@ -39,5 +45,6 @@
 
           </div>
     </form>
+    </div>
   </body>
 </html>
