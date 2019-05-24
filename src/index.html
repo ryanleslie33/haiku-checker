@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hiaku Poem</title>
-    <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="header">
-      <h3>Welcome to Hiaku Checker</h3>
+<head>
+  <meta charset="utf-8">
+  <title>Hiaku Poem</title>
+  <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <h3>Welcome to Hiaku Checker</h3>
 
+  </div>
+  <div id="background" class="container">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h3>Instructions</h3>
+            <p>The first line of the poem must be 5 syllables</p>
+        </div>
+        <div class="carousel-item">
+          <h3>Instructions</h3>
+          <p>The second line of the poem must be 3 syllables</p>
+
+        </div>
+        <div class="carousel-item">
+          <h3>Instructions</h3>
+          <p>The third line of poem must be 5 syllabes</p>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div id="background" class="container">
-
-     <div class="poem-input" >
-    <h3>enter a poem to see it matches the criteria</h3>
-    <div class="container">
+    <div class="poem-input" >
+      
+      <div class="container">
 
 
-    <form id="form" action="index.html" method="post">
-      <p>Enter your first line for your poem</p>
-      <input id="line1" type="text" name="line1" value="">
-        <p>Enter your second line for your poem</p>
-        <input id="line2" type="text" name="line2" value="">
+        <form id="form" action="index.html" method="post">
+          <p>Enter your first line for your poem</p>
+          <input id="line1" type="text" name="line1" value="">
+          <p>Enter your second line for your poem</p>
+          <input id="line2" type="text" name="line2" value="">
           <p>Enter your third line for your poem</p>
           <input id="line3" type="text" name="line3" value="">
           <br>
@@ -29,31 +55,31 @@
           <button type="submit" name="button">Enter</button>
           <br>
           <div class="jumbotron">
-          <p>Your answer is  :</p>
-         <div id="output">
-         </div>
-         </div>
-         </div>
-    </form>
+            <p>Your answer is  :</p>
+            <div id="output">
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
-</div>
-<div  class="container" id="birthday">
+  </div>
+  <div  class="container" id="birthday">
     <form id="form2" action="index.html" method="post">
       <h2> Enter a year month and day</h2>
       <input id="year" type="text" name="year" placeholder="Year" value="" pattern="[0-9]{4}" title= " enter the amount of numbers you idiot">
 
 
-        <input id="month" type="text" placeholder="month(EX.JAN,FEB ...)" value=""pattern="JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC"title= " enter the amount of numbers you idiot">
+      <input id="month" type="text" placeholder="month(EX.JAN,FEB ...)" value=""pattern="JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC"title= " enter the amount of numbers you idiot">
 
 
-          <input id="day" type="number" placeholder="day" value=""min="1" max="31" title= " enter the amount of numbers you idiot">
+      <input id="day" type="number" placeholder="day" value=""min="1" max="31" title= " enter the amount of numbers you idiot">
 
 
-          <button type="submit" name="button">enter</button>
-          <div id="output2">
+      <button type="submit" name="button">enter</button>
+      <div id="output2">
 
-          </div>
+      </div>
     </form>
-    </div>
-  </body>
+  </div>
+</body>
 </html>

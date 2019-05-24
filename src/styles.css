@@ -16,3 +16,7 @@ body{
 p{
   font-family: 'Merienda', cursive;
 }
+.carousel-item{
+  background: #e9eceff5;
+;
+}
