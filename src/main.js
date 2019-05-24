@@ -4,7 +4,7 @@ import css from './styles.css';
 import $ from 'jquery';
 import { Haiku, Week } from './haiku.js';
 import 'faker';
-// import 'poem.jpg' from './images';
+
 var faker = require('faker');
 var random_stuff;
 var i;

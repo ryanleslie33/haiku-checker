@@ -1,9 +1,18 @@
 .header{
   border: 1px solid black;
+  background: #e9eceff5;
 }
 .poem-input{
-  background-color: #e9ecef8c;
+  background-color: #e9eceff5;
+margin-top: 30px;
+}
+#birthday{
+  background-color: #e9eceff5;
+  margin-bottom: 30px;
 }
 body{
-  background-image: url("/Users/ryan leslie/Desktop/haiku-checker/src/images/poem.jpg");
+  background-image: url("./images/poem.jpg");
+}
+p{
+  font-family: 'Merienda', cursive;
 }
